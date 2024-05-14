@@ -1,0 +1,25 @@
+[0.374s] Invoking command in '/home/krumsvik/workspaces/ros2_ws/src/py_pubsub': PYTHONPATH=/home/krumsvik/workspaces/ros2_ws/build/py_pubsub/prefix_override:/home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/krumsvik/workspaces/ros2_ws/build/py_pubsub/build install --record /home/krumsvik/workspaces/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.509s] running egg_info
+[0.510s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.511s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.511s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.511s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.511s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.512s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.519s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.519s] running build
+[0.519s] running build_py
+[0.519s] copying py_pubsub/subscriber_member_function.py -> /home/krumsvik/workspaces/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.520s] running install
+[0.520s] running install_lib
+[0.521s] copying /home/krumsvik/workspaces/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.522s] byte-compiling /home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.522s] running install_data
+[0.522s] running install_egg_info
+[0.524s] removing '/home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.524s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.525s] running install_scripts
+[0.542s] Installing listener script to /home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.542s] Installing talker script to /home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.542s] writing list of installed files to '/home/krumsvik/workspaces/ros2_ws/build/py_pubsub/install.log'
+[0.555s] Invoked command in '/home/krumsvik/workspaces/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/krumsvik/workspaces/ros2_ws/build/py_pubsub/prefix_override:/home/krumsvik/workspaces/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/krumsvik/workspaces/ros2_ws/build/py_pubsub/build install --record /home/krumsvik/workspaces/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

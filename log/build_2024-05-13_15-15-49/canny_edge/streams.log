@@ -1,0 +1,21 @@
+[0.877s] Invoking command in '/home/krumsvik/workspaces/ros2_ws/src/canny_edge': PYTHONPATH=/home/krumsvik/workspaces/ros2_ws/build/canny_edge/prefix_override:/home/krumsvik/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/canny_edge build --build-base /home/krumsvik/workspaces/ros2_ws/build/canny_edge/build install --record /home/krumsvik/workspaces/ros2_ws/build/canny_edge/install.log --single-version-externally-managed install_data
+[1.032s] running egg_info
+[1.033s] writing ../../build/canny_edge/canny_edge.egg-info/PKG-INFO
+[1.033s] writing dependency_links to ../../build/canny_edge/canny_edge.egg-info/dependency_links.txt
+[1.033s] writing entry points to ../../build/canny_edge/canny_edge.egg-info/entry_points.txt
+[1.033s] writing requirements to ../../build/canny_edge/canny_edge.egg-info/requires.txt
+[1.034s] writing top-level names to ../../build/canny_edge/canny_edge.egg-info/top_level.txt
+[1.035s] reading manifest file '../../build/canny_edge/canny_edge.egg-info/SOURCES.txt'
+[1.036s] writing manifest file '../../build/canny_edge/canny_edge.egg-info/SOURCES.txt'
+[1.036s] running build
+[1.036s] running build_py
+[1.036s] running install
+[1.037s] running install_lib
+[1.038s] running install_data
+[1.038s] running install_egg_info
+[1.040s] removing '/home/krumsvik/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge-0.0.0-py3.10.egg-info' (and everything under it)
+[1.040s] Copying ../../build/canny_edge/canny_edge.egg-info to /home/krumsvik/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages/canny_edge-0.0.0-py3.10.egg-info
+[1.041s] running install_scripts
+[1.062s] Installing canny_edge_node script to /home/krumsvik/workspaces/ros2_ws/install/canny_edge/lib/canny_edge
+[1.063s] writing list of installed files to '/home/krumsvik/workspaces/ros2_ws/build/canny_edge/install.log'
+[1.083s] Invoked command in '/home/krumsvik/workspaces/ros2_ws/src/canny_edge' returned '0': PYTHONPATH=/home/krumsvik/workspaces/ros2_ws/build/canny_edge/prefix_override:/home/krumsvik/workspaces/ros2_ws/install/canny_edge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/canny_edge build --build-base /home/krumsvik/workspaces/ros2_ws/build/canny_edge/build install --record /home/krumsvik/workspaces/ros2_ws/build/canny_edge/install.log --single-version-externally-managed install_data

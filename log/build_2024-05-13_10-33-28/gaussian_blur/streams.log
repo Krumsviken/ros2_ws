@@ -1,0 +1,21 @@
+[0.861s] Invoking command in '/home/krumsvik/workspaces/ros2_ws/src/gaussian_blur': PYTHONPATH=/home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/prefix_override:/home/krumsvik/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gaussian_blur build --build-base /home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/build install --record /home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/install.log --single-version-externally-managed install_data
+[1.012s] running egg_info
+[1.012s] writing ../../build/gaussian_blur/gaussian_blur.egg-info/PKG-INFO
+[1.013s] writing dependency_links to ../../build/gaussian_blur/gaussian_blur.egg-info/dependency_links.txt
+[1.013s] writing entry points to ../../build/gaussian_blur/gaussian_blur.egg-info/entry_points.txt
+[1.013s] writing requirements to ../../build/gaussian_blur/gaussian_blur.egg-info/requires.txt
+[1.013s] writing top-level names to ../../build/gaussian_blur/gaussian_blur.egg-info/top_level.txt
+[1.014s] reading manifest file '../../build/gaussian_blur/gaussian_blur.egg-info/SOURCES.txt'
+[1.021s] writing manifest file '../../build/gaussian_blur/gaussian_blur.egg-info/SOURCES.txt'
+[1.021s] running build
+[1.021s] running build_py
+[1.021s] running install
+[1.021s] running install_lib
+[1.022s] running install_data
+[1.022s] running install_egg_info
+[1.023s] removing '/home/krumsvik/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur-0.0.0-py3.10.egg-info' (and everything under it)
+[1.023s] Copying ../../build/gaussian_blur/gaussian_blur.egg-info to /home/krumsvik/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages/gaussian_blur-0.0.0-py3.10.egg-info
+[1.024s] running install_scripts
+[1.038s] Installing gaussian_blur_node script to /home/krumsvik/workspaces/ros2_ws/install/gaussian_blur/lib/gaussian_blur
+[1.038s] writing list of installed files to '/home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/install.log'
+[1.060s] Invoked command in '/home/krumsvik/workspaces/ros2_ws/src/gaussian_blur' returned '0': PYTHONPATH=/home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/prefix_override:/home/krumsvik/workspaces/ros2_ws/install/gaussian_blur/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gaussian_blur build --build-base /home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/build install --record /home/krumsvik/workspaces/ros2_ws/build/gaussian_blur/install.log --single-version-externally-managed install_data
