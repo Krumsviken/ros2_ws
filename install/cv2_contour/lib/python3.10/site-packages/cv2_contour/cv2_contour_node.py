@@ -34,6 +34,11 @@ class CV2ContourNode(Node):
         self.position_publisher = self.create_publisher(
             Point, 'ball_position', 10)
         
+        self.mask_publisher = self.create_publisher(
+            Image,
+            'hsv_mask',
+            10)
+        
         self.bridge = CvBridge()
 
     def image_callback(self, msg):
@@ -71,6 +76,8 @@ class CV2ContourNode(Node):
 
         try:
             output_image = self.bridge.cv2_to_imgmsg(cv_image, "bgr8")
+            mask_image = self.bridge.cv2_to_imgmsg(mask, "mono8")
+            self.mask_publisher.publish(mask_image)
             self.image_publisher.publish(output_image)
             if midpoint is not None:
                 self.position_publisher.publish(midpoint)
