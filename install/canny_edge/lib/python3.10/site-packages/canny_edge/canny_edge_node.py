@@ -11,7 +11,6 @@ class CannyEdgeNode(Node):
         # Declare parameters with default values
         self.declare_parameter('lower_threshold', 100)
         self.declare_parameter('upper_threshold', 200)
-
         # Subscription to the raw image topic
         self.subscription = self.create_subscription(
             Image,
@@ -38,9 +37,11 @@ class CannyEdgeNode(Node):
         lower_threshold = self.get_parameter('lower_threshold').value
         upper_threshold = self.get_parameter('upper_threshold').value
 
+        grayscale_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
+
         try:
             # Apply Canny Edge Detection with dynamic thresholds
-            edges = cv2.Canny(cv_image, lower_threshold, upper_threshold)
+            edges = cv2.Canny(grayscale_image, lower_threshold, upper_threshold)
         except Exception as e:
             self.get_logger().error('Failed to apply Canny Edge Detection: %s' % str(e))
             return
